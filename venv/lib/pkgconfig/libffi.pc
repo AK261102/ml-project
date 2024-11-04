@@ -1,0 +1,11 @@
+prefix=/Users/ak261.1/Downloads/DATA SCIENCE/ml-project/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/ak261.1/Downloads/DATA SCIENCE/ml-project/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
